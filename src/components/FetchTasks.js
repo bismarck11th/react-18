@@ -5,7 +5,7 @@ export const FetchTasks = () => {
 
   return (
     <div className="my-3 text-center">
-      <p className="my-3 font-bold">Task List</p>
+      <p className="my-3 font-bold">Task List 5s delay</p>
       {data?.map((task) => (
         <p className="my-3 text-sm" key={task.id}>
           {task.title}

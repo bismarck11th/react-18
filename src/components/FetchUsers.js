@@ -7,10 +7,10 @@ export const FetchUsers = () => {
   if (status === 'error') return <p>Error</p>
   */
   const { data } = useQueryUsers()
-  
+
   return (
     <div className="my-3 text-center">
-      <p className="my-3 font-bold">User List</p>
+      <p className="my-3 font-bold">User List 3s delay</p>
       {data?.map((user) => (
         <p className="my-3 text-sm" key={user.id}>
           {user.username}

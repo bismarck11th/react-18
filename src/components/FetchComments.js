@@ -5,7 +5,7 @@ export const FetchComments = () => {
 
   return (
     <div className="my-3 text-center">
-      <p className="my-3 font-bold">Comment List</p>
+      <p className="my-3 font-bold">Comment List 1s delay</p>
       {data?.map((comment) => (
         <p className="my-3 text-sm" key={comment.id}>
           {comment.name}

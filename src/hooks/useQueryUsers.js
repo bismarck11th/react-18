@@ -6,7 +6,6 @@ const getUsers = async () => {
   const { data } = await axios
     .get('https://jsonplaceholder.typicode.com/users?_limit=3')
     .then(await delay(3000))
-  console.log(data)
   return data
 }
 
